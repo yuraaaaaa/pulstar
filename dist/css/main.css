@@ -1,5 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
+.header__link,
+.btn {
+  -webkit-transition: 0.3s all ease-in-out;
+  -o-transition: 0.3s all ease-in-out;
+  transition: 0.3s all ease-in-out;
+}
+
+.btn {
+  border-radius: 3px;
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -14,6 +25,7 @@
 body {
   margin: 0;
   font-family: "Roboto", "Arial", "Helvetica Neue", sans-serif;
+  font-weight: 400;
 }
 
 body a {
@@ -29,4 +41,99 @@ body img {
 .conteiner {
   margin: 0 auto;
   width: 1328px;
+}
+
+.btn {
+  border: 1px solid;
+  width: 114px;
+  height: 42px;
+  outline: none;
+  font-family: inherit;
+}
+
+.home {
+  position: relative;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 82px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 72px;
+}
+
+.header__logo {
+  width: 80px;
+  height: 24px;
+}
+
+.header__link {
+  margin: 0 20px;
+  color: #3F3B3D;
+}
+
+.header__link:hover {
+  background: #DDDBDA;
+  background-size: 114px 42px;
+}
+
+.header__btn {
+  background-color: #DDDBDA;
+  border: 1px solid #DDDBDA;
+}
+
+.header__btn:hover {
+  background-color: #fff;
+}
+
+.hello {
+  position: relative;
+  height: 482px;
+  background: #3F3B3D;
+  padding: 65px;
+}
+
+.hello__photo {
+  position: absolute;
+  top: -80px;
+  bottom: 0;
+  right: 0;
+}
+
+.hello__head {
+  position: absolute;
+  bottom: 65px;
+  left: 65px;
+}
+
+.hello__title {
+  width: 370px;
+  color: #fff;
+  font-size: 33px;
+  margin-bottom: 30px;
+}
+
+.hello__btn {
+  display: inline-block;
+  width: 178px;
+  height: 45px;
+  background-color: #F14814;
+  border: 1px solid #F14814;
+   font-size: 16px;
+  color: #fff;
+  text-align: center;
+  line-height: 40px;
+  margin-right: 17.5px;
+}
+
+.link__hello {
+  color: #fff;
+  margin-left: 17.5px;
 }
