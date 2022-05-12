@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+
+    ::after, ::before {
+        box-sizing: border-box;
+    } 
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', 'Arial', 'Helvetica Neue', sans-serif;
+
+    a {
+        color: inherit;
+        text-decoration: none;
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.conteiner {  
+    margin: 0 auto;  
+    width: 1328px;
+} 
+
+// .icon-walden:before {
+// content: "\e900";
+// }
+// .icon-arial:before {
+// content: "\e901";
+// }
+// .icon-cleo:before {
+// content: "\e902";
+// }
+// .icon-petsplay:before {
+// content: "\e903";
+// }
+  
